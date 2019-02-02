@@ -1,5 +1,5 @@
 # XoopsFrench
-Traduction française de xoops 2.5.9
+Traduction française de xoops 2.5.9 et 2.5.10
 
 Installation:
 
@@ -9,4 +9,4 @@ Installation:
 
 3-Modifier la langue dans les préférences.
 
-4-XOOPS 2.5.9 est maintenant en français!
+4-XOOPS est maintenant en français!
