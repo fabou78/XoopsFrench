@@ -32,4 +32,18 @@ $content .= '
     <li>Créez (si ils n\'existent pas) et ouvrez en écriture les répertoires suivant: %s</li>
     <li>Veillez à autoriser l\'écriture des cookies et l\'exécution du Javascript dans votre navigateur internet.</li>
 </ol>
+<h3> Remarques spéciales </ h3>
+<p>Certaines combinaisons de logiciels système spécifiques peuvent nécessiter certaines configurations supplémentaires pour fonctionner.
+  avec XOOPS. Si l’un de ces sujets s’applique à votre environnement, veuillez consulter la documentation complète. 
+ <a href="https://xoops.gitbook.io/xoops-2-5-9-install-upgrade/" class="external">XOOPS 
+  manuel d\'installation</a> pour plus d\'informations. 
+</p>
+<p>MySQL 8.0 n’est pas supporté dans toutes les versions de PHP. Même dans les versions prises en charge, des problèmes avec
+  la bibliothèque PHP <em>mysqlnd</em> peut nécessiter le serveur MySQL <em>default-authentication-plugin</em> 
+ être défini sur <em>mysql_native_password</em> pour fonctionner correctement..
+</p>
+<p>Les systèmes activés pour SELinux (tels que CentOS et RHEL) peuvent nécessiter des modifications du contexte de sécurité.
+  pour les répertoires XOOPS en plus des autorisations de fichiers normales pour rendre les répertoires accessibles en écriture.
+  Consultez la documentation de votre système et / ou votre administrateur système.
+</p>
 ';
