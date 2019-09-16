@@ -25,8 +25,8 @@ setlocale(LC_ALL, 'fr_FR');
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","e","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
 // insert double '\' before 't','r','n'
-define('_TODAY', "\A\u\j\o\u\r\d\'\h\u\i G:i");
-define('_YESTERDAY', "\H\i\e\r G:i");
+define('_TODAY', "\A\u\j\o\u\\r\d\'\h\u\i G:i");
+define('_YESTERDAY', "\H\i\\e\\r G:i");
 define('_MONTHDAY', 'd/m H:i');
 define('_YEARMONTHDAY', 'd/m/Y H:i');
 define('_ELAPSE', 'Il y a %s');
